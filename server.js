@@ -8,6 +8,7 @@ app.get('/server', (require, response) => {
     response.send('hello ajax');
     response.send('hello ajax');
     response.send('hello ajax');
+    response.send('hello ajax');
 });
 
 app.listen(8000, () => {
